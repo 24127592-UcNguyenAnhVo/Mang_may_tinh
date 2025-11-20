@@ -1,5 +1,5 @@
 from tkinter import *
-from tkinter import messagebox as tkMesageBox
+from tkinter import messagebox as tkMessageBox
 from PIL import Image, ImageTk
 import socket, threading, sys, traceback, os
 
@@ -268,3 +268,4 @@ class Client:
 			self.exitClient()
 		else: # When the user presses cancel, resume playing.
 			self.playMovie()
+
